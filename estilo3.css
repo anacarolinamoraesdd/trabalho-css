@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+html {
+    background: url(fotos/fotos-png/634858-studio-ghibli-wallpaper-studio-ghibli-background-anime-scenery-ghibli-artwork.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}  
+
+
+.navbar {
+    display: flex;
+    align-items: left;
+}
+
+ul {
+    flex: 1;
+    text-align: right;
+    
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.59);
+    padding: 0 3px;
+    position: relative;
+}
+ul li a::after {
+    content: '';
+    width: 0;
+    height: 17px;
+    background: rgba(255, 255, 255, 0.809);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    transition: 0.5s;
+}
+ul li a:hover::after {
+    width: 100%;
+}
+
+a:hover {
+    color: rgb(255, 232, 182);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.918);
+    
+}
+
+
+header img {
+    width: 20%;
+    height: 20%;
+    margin-left: 50px;
+    margin-top: 15px;
+   
+}
+
+.bg-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.701);
+    margin-bottom: 7vh;
+    margin-top: 5vh;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+main {
+    max-width: 1120px;
+    margin: auto;
+}
+h1 {
+    font-family: 'Patua One', cursive;
+   
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+}
+h3 {
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.701);
+    color: white;
+    text-align: start;
+    margin-left: 20px;
+    font-size: 2.3rem;
+}
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.formulario {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 50px;
+    line-height: 3rem;
+    border-radius: 25px;
+    color: white;
+    box-sizing: border-box;
+    border: rgba(255, 255, 255, 0.816) solid ;
+}
+
+.style {
+    margin-left: 250px;
+}
+
+
+label {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+input, select { 
+    border-radius: 5px;
+    border: none;
+    padding: 8px 10px;
+    margin-left: 25px;
+    align-items: right;
+    box-shadow: rgba(77, 77, 85, 0.308) 0px 7px 29px 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+option {
+    background-color: #ffffff72;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+input, textarea, select { 
+    max-width: 50vw;
+  }
+  
+  button {
+    font-family: 'Ubuntu', sans-serif;
+    appearance:none;
+    -webkit-appearance:none;
+    padding:10px;
+    border:none;
+    background-color:#59a9c0;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width: 55%;
+    font-size: 1rem;
+  }
+
+  button:active {
+      color: #59a9c0;
+      background-color: #fff;
+  }
+
+.header-plano {
+     font-size: 1.5rem;
+     text-align: center;
+  }
+.emph {
+    font-size: 2rem;
+    line-height: 100px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+}
+  h3 {
+      text-align: center;
+  }
+
+  ol {
+    font-family: 'Ubuntu', sans-serif;
+      list-style: none;
+      margin: 10px;
+      padding: 25px;
+      max-width: 1100px;
+  }
+ .col {
+      float: left;
+      text-align: center;
+      background-color: white;
+      padding: 25px;
+      border-radius: 25px;
+      box-shadow: rgba(77, 77, 85, 0.308) 0px 7px 29px 0px;
+      margin-left:75px;
+  }
+
+  .price-box {
+      max-width: 250px;
+      line-height: 2rem;
+  }
+
+  .border {
+      border: 2px solid #1c4675;
+      padding: 5px 10px;
+      line-height: 2rem;
+      font-weight: bold;
+      text-align: center;
+  }
+  .border a {
+      text-decoration: none;
+      color: rgb(81, 81, 81);
+  }
+
+  .border a:hover {
+      text-shadow: none;
+      color: rgb(0, 0, 0);
+  }
+
+  .border2{
+      background-color: #1c4675;
+      padding: 5px 10px;
+      line-height: 2rem;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+  }
+  .border2:hover {
+      background-color: #3166a3;
+  }
+
+
+  .border2 a {
+      text-decoration: none;
+      color: white;
+  }
+  .border2 a:hover {
+      background-color: #3166a3;
+      text-shadow: none;
+  }
+  
+
+  .after-border {
+      font-size: small;
+      text-decoration: none;
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+  .after-border a {
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+.after-border a:hover {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(60, 61, 62);
+    text-shadow: none;
+}
+
+
+  article li {
+      text-align: left;
+  }
+
+  .erased {
+      color: rgb(196, 196, 196);
+  }
+  
+footer {
+    background-image: linear-gradient(to right, #A3D2F7 , #ACCFA0);
+    padding: 15px;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 90vh;
+}
+
+footer small {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1c4675;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #418395;
+    border-radius: 5px;
+  }
